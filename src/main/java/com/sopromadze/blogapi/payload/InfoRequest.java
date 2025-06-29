@@ -1,8 +1,8 @@
 package com.sopromadze.blogapi.payload;
 
 import lombok.Data;
+import jakarta.validation.constraints.NotBlank;
 
-import javax.validation.constraints.NotBlank;
 
 @Data
 public class InfoRequest {
